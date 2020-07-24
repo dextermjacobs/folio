@@ -330,7 +330,7 @@ iframe {
 .iphone {
   display: flex;
   justify-content: center;
-  background-image: url("/img/iphone-white.png");
+  background-image: url("img/iphone-white.png");
   background-repeat: no-repeat;
   /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4); */
   border-radius: 40px;
