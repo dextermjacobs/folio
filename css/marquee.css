@@ -60,8 +60,8 @@ p {
   animation-timing-function: linear;
   -webkit-animation-name: ticker;
   animation-name: ticker;
-  -webkit-animation-duration: 85s;
-  animation-duration: 85s;
+  -webkit-animation-duration: 60s;
+  animation-duration: 60s;
 }
 
 .ticker-wrap .ticker__item {
@@ -71,6 +71,10 @@ p {
   font-family: "Anton";
   text-transform: uppercase;
   color: black;
+}
+
+.ticker:hover {
+  animation-play-state: paused;
 }
 
 .marquee {
